@@ -1,0 +1,335 @@
+* {
+  box-sizing: border-box;
+  font-family:  'Domine', serif;
+
+}
+
+body {
+  font-family:  'Domine', serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  margin: 30px;
+  padding: 5px;
+  color: black;
+}
+h6 {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 2px;
+}
+h5 {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 2px;
+}
+.navpetitions {
+  display: flex;
+  align-items: space-between;
+  padding: 200px;
+}
+.petitions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  font-family:  'Domine', serif;
+}
+.ptext {
+  display: flex;
+  flex-direction: flex-start;font-weight: bold;
+}
+.petitionlinks:hover {
+  text-decoration: underline;
+  color: black;
+}
+.petitionlinks {
+  display: block;
+  text-align: left;
+/* text-justify: inter-word; */
+
+/* align-content: flex-end; */
+color: #504E73;
+margin: 5px;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  font-family:  'Domine', serif;
+  color: white;
+}
+.dark {
+  margin: 30px;
+  padding: 5px;
+  border: 1px solid white;
+  background: transparent;
+  color: black;
+  font-size: 18px;
+  border-radius: 4px;
+  font-family: 'Domine', serif;
+  font-size: 30px;
+}
+.dark:hover {
+  background: black;
+  color: white;
+}
+
+.darkDark {
+  background: transparent;
+  color: white;
+}
+
+.darkDark:hover {
+  background: white;
+  color: black
+}
+
+
+.pic {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  width: 400px;
+  height: 300px;
+  object-fix: cover;
+  opacity: 0.6;
+}
+.pic:hover {
+  opacity: 0.8;
+  transform: scale(1.03);
+}
+.home {
+  position: relative;
+}
+.link {
+  z-index: 1;
+  color: white;
+  width: 400px;
+  height: 20px;
+  text-align: center;
+  font-size: 45px;
+  text-decoration: none;
+  text-shadow: 2px 2px black;
+  position: absolute;
+  top: 30%;
+  right: -5%
+}
+
+.container{
+  display:flex;
+  position: relative;
+  text-align: center;
+  color: white;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+.article {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 0 0 45px;
+}
+
+.homeLight {
+  text-align: center;
+
+}
+
+.homeDark {
+  background-color: #060E1F;
+  color: white;
+}
+.navDark {
+  color: white;
+}
+
+.title {
+  font-size: 60px;
+  font-family: 'UnifrakturMaguntia', cursive;
+
+  }
+
+#randombtn{
+  margin: 10px;
+  padding: 12px 18px;
+  border: 1px solid #4A37E7;
+  background: #010738;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+}
+
+.home-button1 {
+  margin: 0px 0px 20px 0px;
+  padding: 12px 18px;
+  border: 1px solid #4A37E7;
+  background: #010738;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.home-button {
+  margin: 20px 0px 20px -45px;
+  padding: 12px 18px;
+  border: 1px solid #4A37E7;
+  background: #010738;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.mySlides {
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 22px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.navbar {
+  color: black;
+  width: 300px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin: 0px 0px 20px 10px;
+
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+p {
+  color: black;
+}
+
+/* ABOUT US PAGE */
+.us {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+.aboutcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+
+}
+.ustext {
+  position: relative;
+  text-align: left;
+}
+.uspic {
+  display: flex;
+  flex-direction: row;
+  object-fix: cover;
+
+}
+
+#sarahpic{
+  width: 300px;
+  height: 300px;
+  margin-left: 30px;
+}
+
+#ezgipic {
+  width: 300px;
+  height: 300px;
+  margin-left: 35px;
+}
+
+#bethpic{
+  width: 300px;
+  height: 300px
+}
+
+
+
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.slideImgs {
+  width: 500px;
+  height: 460px;
+  object-fix: cover;
+}
